@@ -11,6 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while(true){
             System.out.println("1: 회원가입 / 2: 로그인 / 3 회원정보 수정 / 4: 탈퇴 / 0: 종료");
+            System.out.print("입력: ");
             String num = scanner.nextLine();
             if (num.equals("0")){
                 isLogin = 0;
